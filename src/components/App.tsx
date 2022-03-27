@@ -7,7 +7,8 @@ function App() {
     <React.Fragment>
       <GlobalStyles/>
         <Navbar />
-        <fieldset style={{ height: "1000px" }}></fieldset>
+        <section>
+        </section>
     </React.Fragment>
   );
 }

@@ -1,11 +1,14 @@
 import styled from "styled-components";
+import Dropdown from "./Dropdown/Dropdown";
 import Logo from "./Logo";
 
 const Navbar = () => {
   return(
       <NavbarContainer>
           <NavbarItems>
-              <Logo text="reddit"/>
+              {/*TODO: May need to do something about the i in "reddit" */}
+              <Logo text="reddit"/> 
+              <Dropdown label="Home"/>
           </NavbarItems>
       </NavbarContainer>
   )
@@ -20,8 +23,10 @@ const NavbarContainer = styled.nav`
    height: 50px;
    background-color: #1a1a1b;
    color: white;
+   isolation: isolate;
 `;
 
+// ul might not be good here
 const NavbarItems = styled.ul`
    display: flex;
    align-items: baseline;
