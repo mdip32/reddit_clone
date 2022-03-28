@@ -11,7 +11,7 @@ export default function DropdownButton({ label, handleClick }: Props) {
       <>
         <StyledDropdownButton onClick={handleClick}>
                 {label}
-                <Caret/>
+                <Caret />
         </StyledDropdownButton>
       </>
 
@@ -23,5 +23,7 @@ const StyledDropdownButton = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    position: relative;
+    top: -2px;
 `
 

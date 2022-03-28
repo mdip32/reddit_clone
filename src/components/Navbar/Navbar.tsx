@@ -20,7 +20,7 @@ const NavbarContainer = styled.nav`
    justify-content: center;
    position: fixed;
    width: 100%;
-   height: 50px;
+   height: 52px;
    background-color: #1a1a1b;
    color: white;
    isolation: isolate;

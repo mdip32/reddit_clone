@@ -19,12 +19,12 @@ export default function DropdownContent() {
 const Items = styled.div`
     position: absolute;
     width: 100%;
-    top: 120%;
+    top: 117%;
     outline: 1px solid red;
     padding: 12px;
     left: 0px;
     background-color: #1a1a1b;
     border-radius: 7px;
-    outline: 1px solid #9b9b9b;
+    outline: 1px solid #636363;
 
 `

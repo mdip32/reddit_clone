@@ -19,6 +19,8 @@ const Item = styled.p`
     color: white;
     padding: 7px 16px;
     border-radius: 7px;
+    font-size: 14px;
+
     &:hover {
         background-color: #2c2c2e;
     }
